@@ -1,0 +1,44 @@
+body {
+    background-image: url("./Img/Lake.jpg"); 
+}
+
+.Headings {
+    text-align: center;
+    border: 5px solid white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+h2 {
+    color: rgba(175, 31, 6, 0.822);
+    font-size: 60px;
+}
+
+h3 {
+    color: rgb(200, 255, 0);
+    font-size: 40px;
+}
+
+h4 {
+    color: rgba(81, 0, 255, 0.835);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+}
+h5, h6 {
+    font-size: 2em;
+    color: red;
+}
+
+.Announcement-text {
+    border: 5px solid white;
+    width: relative;
+    height: 200px;
+    margin: 50;
+    border: 5px  transparent lightsalmon;
+    font-size: 2em;
+    padding-left: 20px;
