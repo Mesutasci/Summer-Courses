@@ -1,44 +1,169 @@
-body {
-    background-image: url("./Img/Lake.jpg"); 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("./Img/Lake.jpg");
+    background-position: relative;
+    width: 100%; 
+    height: 100%;
 }
 
-.Headings {
+.All-Headings{
+    margin: 10px 200px 0px 200px;
     text-align: center;
-    border: 5px solid white;
+    display: block;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    background-color: rgb(58, 5, 107);
+
 }
+
+#main-navigation ul{
+    background-color: darkgreen;
+    padding: 10px;
+    text-align: right;
+    list-style-type: none;
+    margin: 0px 200px;
+    border-radius: 5px;
+}
+
+#main-navigation li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#main-navigation a{   
+    color: white;
+    background-color: forestgreen;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 6px;
+}
+
+#main-navigation a:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.Advertisement-Headings{
+    margin: 0px 200px 20px 200px;
+    text-align: center;
+    display: block;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    background-image: url("Img/sports_.jpg");
+    color: rgb(114, 7, 39);
+    }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 100px;
+    color: lightgreen;
+    font-size: 50px;
+    margin: 30px;
 }
 
 h2 {
-    color: rgba(175, 31, 6, 0.822);
-    font-size: 60px;
+    font-size: 40px;
+    margin: 30px;
 }
 
 h3 {
-    color: rgb(200, 255, 0);
-    font-size: 40px;
+    font-size: 35px;
+    margin: 30px;
 }
 
 h4 {
-    color: rgba(81, 0, 255, 0.835);
     font-weight: bold;
-    text-decoration: underline;
-    font-size: 35px;
+    font-size: 30px;
+    margin: 30px;
 }
 h5, h6 {
-    font-size: 2em;
-    color: red;
+    font-size: 25px;
+    margin: 30px;
 }
 
-.Announcement-text {
-    border: 5px solid white;
+#Information-sheet{
+    background-color: ghostwhite;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    margin: 20px 200px 100px 200px;
     width: relative;
-    height: 200px;
-    margin: 50;
-    border: 5px  transparent lightsalmon;
-    font-size: 2em;
+    font-size: 20px;
     padding-left: 20px;
+}
+
+.Text-Heading4{
+    margin: 100px 0px 50px 100px;
+    color:  rgb(58, 5, 107);
+    text-transform: capitalize;
+}
+
+.Clubs-list{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#Team-Coaches{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#Addinional-Info{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#beverages{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#bee{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 900px;
+}
+
+p{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+/* Styling of Registration Page */
+#forms{
+    margin-left: 100px;
+}
+
+#gender{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.checkbox{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.Picture{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+#Flyer{
+    width: 76%;
+}
+
+/* Styling of AboutUs Page */
+.Sports-Center{
+    margin: 0px 200px 20px 200px;
+    padding: 100px;
+    text-align: center;
+    display: block;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    background-image: url("Img/SportsCenter.jpg");
+    background-position: center;
+    color: rgb(114, 7, 39);
+    }
