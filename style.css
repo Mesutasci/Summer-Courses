@@ -58,6 +58,7 @@ body{
     color: rgb(203, 247, 10);
 }
 
+/* position property */
 .navbar{
     top: 90px;
     position: sticky;
@@ -72,12 +73,14 @@ body{
     border-radius: 0px 0px 10px 10px;
 }
 
+/* An example of a combinator */
 .navbar li{
     display: inline;
     margin-left: 20px;
 
 }
 
+/* An example of a combinator */
 .navbar a, .dropbtn1{   
     color: white;
     background-color: forestgreen;
@@ -88,12 +91,11 @@ body{
     padding: 6px;
 }
 
+/* An example for Pseudo classes */
 .navbar a:hover{
     background-color: lightgreen;
     color: darkgreen;
 }
-
-
 
 /* Style The Dropdown Button */
 /* .dropbtn1 {
@@ -203,8 +205,13 @@ h5, h6 {
     width: relative;
     font-size: 20px;
     padding-left: 20px;
-
 }
+
+/* example of a pseudo element */
+#Information-sheet p::first-line{
+    color: #ff0000;
+}
+
 
 .Text-Heading4{
     margin: 50px 0px 50px 100px;
